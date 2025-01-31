@@ -19,7 +19,7 @@ export default function Command() {
     taskPathTemplate: "",
     defaultDueDate: formatDate(new Date()),
   });
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
 
   useEffect(() => {
