@@ -11,9 +11,15 @@
   "license": "MIT",
   "commands": [
     {
-      "name": "quick-add",
+      "name": "quick-add-task",
       "title": "Quick Add Task",
       "description": "Add Obsidian Task",
+      "mode": "view"
+    },
+    {
+      "name": "quick-add-later",
+      "title": "Quick Add Later",
+      "description": "Add Obsidian Later",
       "mode": "view"
     }
   ],
