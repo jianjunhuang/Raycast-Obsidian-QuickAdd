@@ -21,10 +21,23 @@
       "title": "Quick Add Later",
       "description": "Add Obsidian Later",
       "mode": "view"
+    },
+    {
+      "name": "quick-add-list",
+      "title": "Quick Add List",
+      "description": "Add Obsidian Content",
+      "mode": "view"
+    },
+    {
+      "name": "quick-add-index",
+      "title": "Quick Add Search",
+      "description": "Add Obsidian Content",
+      "mode": "view"
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.56.3"
+    "@raycast/api": "^1.56.3",
+    "@raycast/utils": "^1.18.1"
   },
   "devDependencies": {
     "@raycast/eslint-config": "1.0.5",

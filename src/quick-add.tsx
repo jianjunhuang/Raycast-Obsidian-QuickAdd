@@ -1,4 +1,3 @@
-
 import { ActionPanel, Form, showToast, Toast, Action, LocalStorage } from "@raycast/api";
 import fs from "fs";
 import path from "path";
